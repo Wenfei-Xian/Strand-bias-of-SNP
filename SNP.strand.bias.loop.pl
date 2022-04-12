@@ -32,7 +32,7 @@ GetOptions(
 
 die `pod2text $0` if ( $Help );
 
-print "File\tTotal_reas\tReads_support_mutant\tForward_reads\tReverse_reads\treverse_reads_percentage\n";
+print "SNP\tTotal_reas\tReads_support_mutant\tForward_reads\tReverse_reads\treverse_reads_percentage\n";
 
 open IN1,"$snp" or die "Can't open $snp";#SNP list
 while(<IN1>){
